@@ -1,0 +1,43 @@
+{
+  "name": "paypay-ts",
+  "version": "2.3.4",
+  "description": "TypeScript/Node.js用のPayPayAPI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "example": "ts-node src/example.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "paypay",
+    "api",
+    "mobile",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "rinapen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rinapen/paypay.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/rinapen/paypay.ts/issues"
+  },
+  "homepage": "https://github.com/rinapen/paypay.ts#readme"
+}
